@@ -1,2 +1,2 @@
-# phd_code
+# Supplementary Python code for PhD thesis
 Supplementary code for PhD thesis.
