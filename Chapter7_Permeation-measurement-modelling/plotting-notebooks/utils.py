@@ -1,0 +1,16 @@
+exp_dict = {
+    'RUN_H_25C-50bar': 'H_25C-5MPa',
+    'RUN_H_25C-100bar_7': 'H_25C-10MPa_1',
+    'RUN_H_25C-100bar_8': 'H_25C-10MPa_2',
+    'RUN_H_25C-100bar_9': 'H_25C-10MPa_3',
+    'RUN_H_25C-200bar_2': 'H_25C-20MPa',
+    'RUN_H_50C-50bar': 'H_50C-5MPa',
+    'RUN_H_50C-100bar_2': 'H_50C-10MPa',
+    'RUN_H_50C-200bar': 'H_50C-20MPa',
+    'RUN_H_75C-50bar': 'H_75C-5MPa',
+    'RUN_H_75C-100bar': 'H_75C-10MPa',
+    'S4R3': 'P_25C-2.5MPa',
+    'S4R4': 'P_50C-5MPa_1',
+    'S4R6': 'P_50C-5MPa_2',
+    'S4R5': 'P_75C-5MPa',
+}
