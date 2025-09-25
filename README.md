@@ -6,8 +6,6 @@ This repository contains the code, scripts, and datasets that support the analys
 - **Author**: Louis Nguyen  
 - **Supervisors**: Dr. Christopher James Tighe, Prof. Amparo Galindo, Prof. George Jackson
 
----
-
 ## Requirements
 - Conda (Anaconda or Miniconda)
 - Git (optional)
@@ -15,8 +13,6 @@ This repository contains the code, scripts, and datasets that support the analys
 
 Core Python libraries (installed via the environment file):
 - NumPy, Pandas, SciPy, Matplotlib
-
----
 
 ## Quick start
 
@@ -41,8 +37,6 @@ conda activate permeation-env
 ```bash
 jupyter notebook
 ```
-
----
 
 ## Project layout (top-level)
 
@@ -69,8 +63,6 @@ phd_code/
 
 (See the repository for the full, detailed tree and files.)
 
----
-
 ## Related repositories
 
 - Chapter 4 (Crystallinity): https://github.com/louis-sh-nguyen/polymer-characterisation  
@@ -78,8 +70,6 @@ phd_code/
 - Chapter 6 (Solubility measurement): https://github.com/louis-sh-nguyen/rubotherm_EOS  
 - Chapter 7 (Permeation analysis): https://github.com/louis-sh-nguyen/object-oriented-pemeation-analysis  
 - GUI guide for permeation app: https://imperialcollegelondon.github.io/ReCoDe-permeation-analysis-app/
-
----
 
 ## Contact
 - Email: louis.sh.nguyen@gmail.com  
