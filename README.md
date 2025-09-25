@@ -14,7 +14,7 @@ This repository contains the code, scripts, and datasets that support the analys
 Core Python libraries (installed via the environment file):
 - NumPy, Pandas, SciPy, Matplotlib
 
-## Quick start
+## Quick Start
 
 1. Clone the repository and enter the project folder:
 
