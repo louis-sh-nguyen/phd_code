@@ -3,7 +3,7 @@
 This repository contains the code, scripts, and datasets that support the analyses and figures in the PhD thesis:
 
 - **Title**: Advanced Measurement and Modelling of Permeation and Sorption of CO₂ in Engineering Polymers  
-- **Author**: Louis Nguyen  
+- **Author**: Son Hoang Luu (Louis) Nguyen  
 - **Supervisors**: Dr. Christopher James Tighe, Prof. Amparo Galindo, Prof. George Jackson
 
 ## Requirements
