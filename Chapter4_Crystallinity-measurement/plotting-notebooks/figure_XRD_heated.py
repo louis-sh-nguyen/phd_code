@@ -73,7 +73,7 @@ def plot_crystallinity_from_excel(
     ax1.set_ylim(bottom=0.0, top=1.0)  
     ax1.set_xlabel('Temperature / °C')
     ax1.set_ylabel(r'$X_{\mathrm{c}}$ / $\mathrm{g \, g^{-1}}$')
-    ax1.set_title('(b) HDPE')
+    ax1.set_title('(a) HDPE')
     
     # Remove tick marks but keep labels
     ax1.tick_params(axis='x', length=0)
@@ -93,7 +93,7 @@ def plot_crystallinity_from_excel(
     ax2.set_ylim(bottom=0.0, top=0.2)
     ax2.set_xlabel('Temperature / °C')
     # ax2.set_ylabel(r'$X_{\mathrm{c}}$ / $\mathrm{g \, g^{-1}}$')
-    ax2.set_title('(a) PEEKa')
+    ax2.set_title('(b) PEEKa')
     
     # Remove tick marks but keep labels
     ax2.tick_params(axis='x', length=0)
