@@ -43,7 +43,7 @@ def plot_raw_mass_sensitivity(
     import os
     
     # Expected sheet names for different conditions
-    sheet_names = ['35C_10.0MPa', '35C_20.1MPa', '50C_10.1MPa', '50C_20.1MPa']
+    sheet_names = ['35C_10MPa', '35C_20MPa', '50C_10MPa', '50C_20MPa']
 
     # Load data from Excel tabs
     data = {}
@@ -156,10 +156,10 @@ def plot_raw_mass_sensitivity(
     
     # Add manual x-limits for each subplot
     xlimits_dict = {
-        '35C_10.0MPa': (-1.12, -1.06),
-        '35C_20.1MPa': (-1.38, -1.30),
-        '50C_10.1MPa': ( -0.60, -0.560),
-        '50C_20.1MPa': (-1.24, -1.18)
+        '35C_10MPa': (-1.12, -1.06),
+        '35C_20MPa': (-1.38, -1.30),
+        '50C_10MPa': ( -0.60, -0.560),
+        '50C_20MPa': (-1.24, -1.18)
     }
     for i, ax in enumerate(axs):
         limits = xlimits_dict.get(sheet_names[i], (-1.5, 0.5))
@@ -168,10 +168,10 @@ def plot_raw_mass_sensitivity(
 
     # Add legend if required
     legend_loc_dict = {
-        '35C_10.0MPa': 'upper left',
-        '35C_20.1MPa': 'upper left',
-        '50C_10.1MPa': 'upper left',
-        '50C_20.1MPa': 'upper left'
+        '35C_10MPa': 'upper left',
+        '35C_20MPa': 'upper left',
+        '50C_10MPa': 'upper left',
+        '50C_20MPa': 'upper left'
     }    
     for i, ax in enumerate(axs):
         if display_legend:
